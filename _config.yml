@@ -18,7 +18,7 @@ url                      : "http://yashketkar.com" # the base hostname & protoco
 # baseurl                  : "/minimal-mistakes" # the subpath of your site, e.g. "/blog"
 repository               : "yashketkar/minimal-mistakes" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/images/500x300.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-# breadcrumbs            : false # true, false (default)
+breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : "disqus"  # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
@@ -63,18 +63,22 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : "yashketkar"
 facebook:
-  username               :
+  username               : "yashketkar"
   app_id                 :
   publisher              :
-og_image                 : # Open Graph/Twitter default site image
+og_image                 : "/assets/images/site-logo.png" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
+  type                   : "Person" # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  links:
+    - "https://twitter.com/yashketkar"
+    - "https://facebook.com/yashketkar"
+    - "https://instagram.com/yashketkar"
+    - "https://www.linkedin.com/in/yashketkar"
 
 # Analytics
 analytics:
@@ -87,7 +91,7 @@ analytics:
 author:
   name             : "Yash Ketkar"
   avatar           : "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
+  bio              : "Software Engineer, Mumbaikar, Hoosier."
   location         : "Kansas City, MO"
   email            : "yashketkar@hotmail.com"
   uri              :
@@ -184,7 +188,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Chicago # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
