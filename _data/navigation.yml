@@ -1,6 +1,12 @@
 main:
-  - title: "Quick-Start Guide"
-    url: /docs/quick-start-guide/
+  - title: "About"
+    url: /year-archive/
+  - title: "Projects"
+    url: /year-archive/
+  - title: "Blog"
+    url: /year-archive/
+  - title: "Contact"
+    url: /year-archive/
   - title: "Posts"
     url: /year-archive/
   - title: "Categories"
