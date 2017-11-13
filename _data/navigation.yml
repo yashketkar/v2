@@ -1,9 +1,9 @@
 main:
   - title: "Projects"
-    url: /year-archive/
+    url: /categories/#projects/
   - title: "Blog"
-    url: /year-archive/
+    url: /categories/#blog/
   - title: "Categories"
     url: /categories/
-  - title: "Tags"
-    url: /tags/
+  # - title: "Tags"
+  #   url: /tags/
