@@ -18,7 +18,7 @@ url                      : "http://yashketkar.com" # the base hostname & protoco
 # baseurl                  : "/minimal-mistakes" # the subpath of your site, e.g. "/blog"
 repository               : "yashketkar/minimal-mistakes" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/images/500x300.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-breadcrumbs              : true # true, false (default)
+breadcrumbs              : false # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : "disqus"  # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
@@ -185,9 +185,9 @@ sass:
 
 
 # Outputting
-permalink: /:categories/:title/
+permalink: /blog/:title/
 paginate: 5 # amount of posts to show
-paginate_path: /page:num/
+paginate_path: /blog/page:num/
 timezone: America/Chicago # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
@@ -258,17 +258,20 @@ defaults:
       comments: true
       share: true
       related: true
-  # _portfolio
+  # _projects
   - scope:
       path: ""
-      type: portfolio
+      type: projects
     values:
       layout: single
       author_profile: false
       share: true
 
-# Portfolio Collection
+# Projects Collection
 collections:
-  portfolio:
+  projects:
     output: true
     permalink: /:collection/:path/
+
+# Github API Authentication
+github: [metadata]
