@@ -1,16 +1,16 @@
 ---
-title: "Foo Bar Identity"
-excerpt: "Foo Bar design system including logo mark, website design, and branding applications."
+title: "Xinu (Embedded OS)"
+excerpt: "Enhancing and adding features using C."
 header:
   image: /assets/images/foo-bar-identity.jpg
-  teaser: /assets/images/foo-bar-identity-th.jpg
+  teaser: /assets/images/projects/xinu.png
 sidebar:
-  - title: "Role"
+  - title: "Github Link"
     image: http://placehold.it/350x250
     image_alt: "logo"
-    text: "Designer, Front-End Developer"
+    text: "(https://github.com/yashketkar/OS-P536-S17)[https://github.com/yashketkar/OS-P536-S17]"
   - title: "Responsibilities"
-    text: "Reuters try PR stupid commenters should isn't a business model"
+    text: "Modifying and upgrading various aspects of Xinu OS"
 gallery:
   - url: /assets/images/unsplash-gallery-image-1.jpg
     image_path: assets/images/unsplash-gallery-image-1-th.jpg
@@ -22,9 +22,8 @@ gallery:
     image_path: assets/images/unsplash-gallery-image-3-th.jpg
     alt: "placeholder image 3"
 ---
+In my advanced operating systems course, we worked on enhancing several system level features in the Xinu OS. The OS ran on an ARM based BeagleBoneBlack unit. Using C Programming language, me and my friend Tejas Kumthekar worked on adding features to the memory management modules, built in-memory file systems along with Futures and Semaphores to provide mutual exclusion to user level programs.
 
-Pictures of Goats section West Seattle Blog dingbat newspaper rubber cement Google+ newsroom cafe news.me rubber cement, Ushahidi Kindle Single syndicated Instagram HuffPo community mthomps, Mozilla iPhone app should isn't a business model curmudgeon Snarkmarket Tim Carmody production of innocence. Fuego tweets community DocumentCloud metered model Gardening & War section YouTube social media SEO information overload analytics Aron Pilhofer Journal Register data visualization WikiLeaks Groupon, collaboration Steve Jobs we need a Nate Silver AP What Would Google Do the power of the press belongs to the person who owns one Clay Shirky curmudgeon Voice of San Diego free as in beer dead trees the notion of the public Lucius Nieman.
+{% include gallery caption="Gallery of Xinu OS images." %}
 
-{% include gallery caption="This is a sample gallery to go along with this case study." %}
-
-hackgate copyright Lucius Nieman CNN leaves it there right-sizing a giant stack of newspapers that you'll never read net neutrality algorithms RT algorithms TechCrunch 5% corruption, horse-race coverage Gardening & War section CTR try PR CPC David Cohn shoot a photo algorithms content is king Android Snarkmarket crowdfunding, Fuego Twitter topples dictators YouTube abundance WordPress Reuters try PR stupid commenters should isn't a business model bringing a tote bag to a knife fight.
+The enhancements were made available through syscalls which could be used by any user level programs. We also added shell commands to the OS, giving us insight into the internal clockwork of an Operating System.
