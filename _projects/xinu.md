@@ -2,13 +2,11 @@
 title: "Xinu (Embedded OS)"
 excerpt: "Enhancing and adding features using C."
 header:
-  image: /assets/images/foo-bar-identity.jpg
   teaser: /assets/images/projects/xinu.png
 sidebar:
-  - title: "Github Link"
-    image: http://placehold.it/350x250
+  - title: "<i class=\"fa fa-github\" aria-hidden=\"true\"></i> <a href=\"https://github.com/yashketkar/OS-P536-S17\">GitHub Repo</a>"
+    image: /assets/images/projects/xinu.png
     image_alt: "logo"
-    text: "(https://github.com/yashketkar/OS-P536-S17)[https://github.com/yashketkar/OS-P536-S17]"
   - title: "Responsibilities"
     text: "Modifying and upgrading various aspects of Xinu OS"
 gallery:
