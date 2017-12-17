@@ -2,7 +2,7 @@
 title: "Xinu (Embedded OS)"
 excerpt: "Enhancing and adding features using C."
 header:
-  teaser: /assets/images/projects/xinu-th.jpg
+  teaser: /assets/images/projects/xinu-th.png
 sidebar:
   - title: "<i class=\"fa fa-github\" aria-hidden=\"true\"></i> <a href=\"https://github.com/yashketkar/OS-P536-S17\">GitHub Repo</a>"
     image: /assets/images/projects/xinu-sb.png
