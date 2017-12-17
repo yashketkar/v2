@@ -2,10 +2,10 @@
 title: "eDocLite"
 excerpt: "A web based drag-and-drop form building application."
 header:
-  teaser: /assets/images/projects/xinu.png
+  teaser: /assets/images/projects/edoclite-th.png
 sidebar:
   - title: "<i class=\"fa fa-github\" aria-hidden=\"true\"></i> <a href=\"https://github.com/yashketkar/OS-P536-S17\">GitHub Repo</a>"
-    image: /assets/images/projects/xinu.png
+    image: /assets/images/projects/edoclite-sb.png
     image_alt: "logo"
   - title: "Responsibilities"
     text: "Modifying and upgrading various aspects of Xinu OS"

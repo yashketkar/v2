@@ -2,10 +2,10 @@
 title: "Attendance Manager"
 excerpt: "Enhancing and adding features using C."
 header:
-  teaser: /assets/images/projects/attendance-manager.png
+  teaser: /assets/images/projects/attendance-manager-th.png
 sidebar:
   - title: "<i class=\"fa fa-github\" aria-hidden=\"true\"></i> <a href=\"https://github.com/yashketkar/OS-P536-S17\">GitHub Repo</a>"
-    image: /assets/images/projects/attendance-manager.png
+    image: /assets/images/projects/attendance-manager-sb.png
     image_alt: "logo"
   - title: "Responsibilities"
     text: "Modifying and upgrading various aspects of Xinu OS"
