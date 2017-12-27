@@ -1,14 +1,12 @@
 ---
 title: "Game Maker"
-excerpt: "Enhancing and adding features using C."
+excerpt: "A Java based application which allows a user to build custom arcarde-style games."
 header:
   teaser: /assets/images/projects/game-maker-th.png
 sidebar:
-  - title: "<i class=\"fa fa-github\" aria-hidden=\"true\"></i> <a href=\"https://github.com/yashketkar/OS-P536-S17\">GitHub Repo</a>"
+  - title: "<i class=\"fa fa-github\" aria-hidden=\"true\"></i> <a href=\"https://github.com/yashketkar/P532-OOSD\">GitHub Repo</a>"
     image: /assets/images/projects/game-maker-sb.png
-    image_alt: "logo"
-  - title: "Responsibilities"
-    text: "Modifying and upgrading various aspects of Xinu OS"
+    image_alt: "thumbnail"
 gallery:
   - url: /assets/images/unsplash-gallery-image-1.jpg
     image_path: assets/images/unsplash-gallery-image-1-th.jpg
@@ -22,6 +20,7 @@ gallery:
 ---
 In my advanced operating systems course, we worked on enhancing several system level features in the Xinu OS. The OS ran on an ARM based BeagleBoneBlack unit. Using C Programming language, me and my friend Tejas Kumthekar worked on adding features to the memory management modules, built in-memory file systems along with Futures and Semaphores to provide mutual exclusion to user level programs.
 
-{% include gallery caption="Gallery of Xinu OS images." %}
+Video showing the edit and delete functionality:
+{% include video id="mGR2dbWak-4" provider="youtube" %}
 
 The enhancements were made available through syscalls which could be used by any user level programs. We also added shell commands to the OS, giving us insight into the internal clockwork of an Operating System.
