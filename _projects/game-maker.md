@@ -7,20 +7,20 @@ sidebar:
   - title: "<i class=\"fa fa-github\" aria-hidden=\"true\"></i> <a href=\"https://github.com/yashketkar/P532-OOSD\">GitHub Repo</a>"
     image: /assets/images/projects/game-maker-sb.png
     image_alt: "thumbnail"
-gallery:
-  - url: /assets/images/unsplash-gallery-image-1.jpg
-    image_path: assets/images/unsplash-gallery-image-1-th.jpg
-    alt: "placeholder image 1"
-  - url: /assets/images/unsplash-gallery-image-2.jpg
-    image_path: assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-  - url: /assets/images/unsplash-gallery-image-3.jpg
-    image_path: assets/images/unsplash-gallery-image-3-th.jpg
-    alt: "placeholder image 3"
 ---
-In my advanced operating systems course, we worked on enhancing several system level features in the Xinu OS. The OS ran on an ARM based BeagleBoneBlack unit. Using C Programming language, me and my friend Tejas Kumthekar worked on adding features to the memory management modules, built in-memory file systems along with Futures and Semaphores to provide mutual exclusion to user level programs.
+As a part of the P532 course at Indiana University, We had to create a game maker using Java in swing. I contributed to developing a generic Game Maker Application in Java that could be used to build and play a range of arcade games. Made extensive use of Java design patterns to implement generic features of the game.
 
-Video showing the edit and delete functionality:
+- Features of the application: Save and Load, Sound, Webstartable
+- Technologies used: Swing, Bamboo, Fisheye, Log4J, JUnit, Mockito, Maven, Ant.
+- Design Patterns used: Singleton, Command, Composite, Factory, Façade, MVC, Observer pattern.
+- User can save/load built games, define game rules/actions along with basic game play features.
+- Customizable game and future proof implementation, reusable codebase.
+
+Pacman created using the game maker:
 {% include video id="mGR2dbWak-4" provider="youtube" %}
 
-The enhancements were made available through syscalls which could be used by any user level programs. We also added shell commands to the OS, giving us insight into the internal clockwork of an Operating System.
+Space Invaders created using the game maker:
+{% include video id="SMTpHnZJnUY" provider="youtube" %}
+
+Frogger created using the game maker:
+{% include video id="XrfxdFM8K3c" provider="youtube" %}
