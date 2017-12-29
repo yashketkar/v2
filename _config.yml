@@ -14,9 +14,9 @@ title                    : "Yash Ketkar"
 title_separator          : "-"
 name                     : "Yash Ketkar"
 description              : "Blog and website of Yash Ketkar, which includes information about my background, education and experience, blogging mainly for tech. Opinions expressed are mine."
-url                      : "http://yashketkar.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://yashketkar.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 # baseurl                  : "/minimal-mistakes" # the subpath of your site, e.g. "/blog"
-repository               : "yashketkar/minimal-mistakes" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "yashketkar/yashketkar.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/images/500x300.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 200
