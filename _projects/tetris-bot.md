@@ -1,27 +1,23 @@
 ---
 title: "Tetris Bot"
-excerpt: "Enhancing and adding features using C."
+excerpt: "Created a invincible bot which can play tetris without losing."
 header:
   teaser: /assets/images/projects/tetris-th.jpg
 sidebar:
-  - title: "<i class=\"fa fa-github\" aria-hidden=\"true\"></i> <a href=\"https://github.com/yashketkar/OS-P536-S17\">GitHub Repo</a>"
+  - title: "<i class=\"fa fa-github\" aria-hidden=\"true\"></i> <a href=\"https://github.com/yashketkar/B551-Elements-Of-Artificial-Intelligence/tree/master/iyerg-yketkar-mpanchol-a2\">GitHub Repo</a>"
     image: /assets/images/projects/tetris-sb.jpg
-    image_alt: "logo"
+    image_alt: "thumbnail"
   - title: "Responsibilities"
-    text: "Modifying and upgrading various aspects of Xinu OS"
-gallery:
-  - url: /assets/images/unsplash-gallery-image-1.jpg
-    image_path: assets/images/unsplash-gallery-image-1-th.jpg
-    alt: "placeholder image 1"
-  - url: /assets/images/unsplash-gallery-image-2.jpg
-    image_path: assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-  - url: /assets/images/unsplash-gallery-image-3.jpg
-    image_path: assets/images/unsplash-gallery-image-3-th.jpg
-    alt: "placeholder image 3"
+    text: "See part 2 of the above repo."
 ---
-In my advanced operating systems course, we worked on enhancing several system level features in the Xinu OS. The OS ran on an ARM based BeagleBoneBlack unit. Using C Programming language, me and my friend Tejas Kumthekar worked on adding features to the memory management modules, built in-memory file systems along with Futures and Semaphores to provide mutual exclusion to user level programs.
+This bot was created as a part of an assignment, where we were provided a skeleton code for the tetris game. I had to create the algorithm and logic to determine the next move of the bot. This was done using search algorithms and using a probabilistic approach. The heuristic for this algorithm was determined using a Genetic algorithm.
 
-{% include gallery caption="Gallery of Xinu OS images." %}
+The heuristic or scoring function gave a particular configuration of the game state a score taking into account various factors like average height, max height, holes, bumpiness and complete lines.
 
-The enhancements were made available through syscalls which could be used by any user level programs. We also added shell commands to the OS, giving us insight into the internal clockwork of an Operating System.
+The parameters to be considered and weights of each parameter was referenced from [here](https://codemyroad.wordpress.com/2013/04/14/tetris-ai-the-near-perfect-player/).
+
+Briefly, the algorithm worked as follows:
+1. For each piece and the upcoming piece generate all possible successor configurations of the game.
+2. Choose the next position from the successors with best score using the above scoring function and make the moves to reach that configuration of the board.
+
+Once the best successor configuration was found, then move the piece accordingly to reach that state. Thus we could get an impossible to beat bot given the probability distribution of the incoming pieces. If the probability distribution of the incoming pieces were changed dynamically, it would require us to run the genetic algorithm to learn the weights used in the scoring function for the given new probability distribution. Thus making it difficult to have a set of weights which could be perfect for dynamically updating distribution of pieces.
