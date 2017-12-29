@@ -1,27 +1,30 @@
 ---
 title: "Image Orientation Detection"
-excerpt: "Enhancing and adding features using C."
+excerpt: "Detecting orientation of image using machine learning techniques."
 header:
   teaser: /assets/images/projects/image-orientation-th.png
 sidebar:
-  - title: "<i class=\"fa fa-github\" aria-hidden=\"true\"></i> <a href=\"https://github.com/yashketkar/OS-P536-S17\">GitHub Repo</a>"
+  - title: "<i class=\"fa fa-github\" aria-hidden=\"true\"></i> <a href=\"https://github.com/yashketkar/B551-Elements-Of-Artificial-Intelligence/tree/master/pssapre-sdarekar-yketkar-a5\">GitHub Repo</a>"
     image: /assets/images/projects/image-orientation-sb.png
-    image_alt: "logo"
+    image_alt: "thumbnail"
   - title: "Responsibilities"
-    text: "Modifying and upgrading various aspects of Xinu OS"
+    text: "Worked on Adaboost method to detect orientation"
 gallery:
-  - url: /assets/images/unsplash-gallery-image-1.jpg
-    image_path: assets/images/unsplash-gallery-image-1-th.jpg
-    alt: "placeholder image 1"
-  - url: /assets/images/unsplash-gallery-image-2.jpg
-    image_path: assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-  - url: /assets/images/unsplash-gallery-image-3.jpg
-    image_path: assets/images/unsplash-gallery-image-3-th.jpg
-    alt: "placeholder image 3"
+  - url: /assets/images/projects/image-orientation/1.jpg
+    image_path: assets/images/projects/image-orientation/1.jpg
+    alt: "0 degree"
+  - url: /assets/images/projects/image-orientation/2.jpg
+    image_path: assets/images/projects/image-orientation/2.jpg
+    alt: "90 degree"
+  - url: /assets/images/projects/image-orientation/3.jpg
+    image_path: assets/images/projects/image-orientation/3.jpg
+    alt: "180 degree"
+  - url: /assets/images/projects/image-orientation/4.jpg
+    image_path: assets/images/projects/image-orientation/4.jpg
+    alt: "270 degree"
 ---
-In my advanced operating systems course, we worked on enhancing several system level features in the Xinu OS. The OS ran on an ARM based BeagleBoneBlack unit. Using C Programming language, me and my friend Tejas Kumthekar worked on adding features to the memory management modules, built in-memory file systems along with Futures and Semaphores to provide mutual exclusion to user level programs.
+In this project, we were given images from Flickr in random orientations. We detected the correct orientation using three different machine learning techniquies namely KNNs, Neural Networks and AdaBoost. I mainly worked on the Adaboost method for detecting the correct orientation of the image.
 
-{% include gallery caption="Gallery of Xinu OS images." %}
+{% include gallery caption="Some sample images from the training and test dataset." %}
 
-The enhancements were made available through syscalls which could be used by any user level programs. We also added shell commands to the OS, giving us insight into the internal clockwork of an Operating System.
+Note: The images above are of very low resolution since they were scaled down for feature extraction.
