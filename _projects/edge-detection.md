@@ -4,7 +4,7 @@ excerpt: "Finding edge seperating the ridge of mountain from the sky using AI."
 header:
   teaser: /assets/images/projects/edge-detection-th.jpg
 sidebar:
-  - title: "<i class=\"fa fa-github\" aria-hidden=\"true\"></i> <a href=\"https://github.com/yashketkar/B551-Elements-Of-Artificial-Intelligence/tree/master/pssapre-sdarekar-yketkar-a3/part2\">GitHub Repo</a>"
+  - title: "<i class=\"fab fa-github\" aria-hidden=\"true\"></i> <a href=\"https://github.com/yashketkar/B551-Elements-Of-Artificial-Intelligence/tree/master/pssapre-sdarekar-yketkar-a3/part2\">GitHub Repo</a>"
     image: /assets/images/projects/edge-detection-sb.png
     image_alt: "thumbnail"
 gallery:

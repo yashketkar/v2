@@ -4,7 +4,7 @@ excerpt: "Created a invincible bot which can play tetris without losing."
 header:
   teaser: /assets/images/projects/tetris-th.jpg
 sidebar:
-  - title: "<i class=\"fa fa-github\" aria-hidden=\"true\"></i> <a href=\"https://github.com/yashketkar/B551-Elements-Of-Artificial-Intelligence/tree/master/iyerg-yketkar-mpanchol-a2\">GitHub Repo</a>"
+  - title: "<i class=\"fab fa-github\" aria-hidden=\"true\"></i> <a href=\"https://github.com/yashketkar/B551-Elements-Of-Artificial-Intelligence/tree/master/iyerg-yketkar-mpanchol-a2\">GitHub Repo</a>"
     image: /assets/images/projects/tetris-sb.jpg
     image_alt: "thumbnail"
   - title: "Responsibilities"

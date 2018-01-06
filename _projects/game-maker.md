@@ -4,7 +4,7 @@ excerpt: "A Java based application which allows a user to build custom arcarde-s
 header:
   teaser: /assets/images/projects/game-maker-th.png
 sidebar:
-  - title: "<i class=\"fa fa-github\" aria-hidden=\"true\"></i> <a href=\"https://github.com/yashketkar/P532-OOSD\">GitHub Repo</a>"
+  - title: "<i class=\"fab fa-github\" aria-hidden=\"true\"></i> <a href=\"https://github.com/yashketkar/P532-OOSD\">GitHub Repo</a>"
     image: /assets/images/projects/game-maker-sb.png
     image_alt: "thumbnail"
 ---

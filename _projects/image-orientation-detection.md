@@ -4,7 +4,7 @@ excerpt: "Detecting orientation of image using machine learning techniques."
 header:
   teaser: /assets/images/projects/image-orientation-th.png
 sidebar:
-  - title: "<i class=\"fa fa-github\" aria-hidden=\"true\"></i> <a href=\"https://github.com/yashketkar/B551-Elements-Of-Artificial-Intelligence/tree/master/pssapre-sdarekar-yketkar-a5\">GitHub Repo</a>"
+  - title: "<i class=\"fab fa-github\" aria-hidden=\"true\"></i> <a href=\"https://github.com/yashketkar/B551-Elements-Of-Artificial-Intelligence/tree/master/pssapre-sdarekar-yketkar-a5\">GitHub Repo</a>"
     image: /assets/images/projects/image-orientation-sb.png
     image_alt: "thumbnail"
   - title: "Responsibilities"
