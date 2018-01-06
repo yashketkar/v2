@@ -4,7 +4,7 @@ excerpt: "Suggesting the best location for a new business."
 header:
   teaser: /assets/images/projects/yelp-dataset-challenge-th.png
 sidebar:
-  - title: "<i class=\"fa fa-github\" aria-hidden=\"true\"></i> <a href=\"https://github.com/yashketkar/yelp-dataset-challenge\">GitHub Repo</a>"
+  - title: "<i class=\"fab fa-github\" aria-hidden=\"true\"></i> <a href=\"https://github.com/yashketkar/yelp-dataset-challenge\">GitHub Repo</a>"
     image: /assets/images/projects/yelp-dataset-challenge-sb.png
     image_alt: "thumbnail"
   - title: "Responsibilities"

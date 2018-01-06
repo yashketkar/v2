@@ -4,10 +4,10 @@ excerpt: "An Android app to manage student attendance in class."
 header:
   teaser: /assets/images/projects/attendance-manager-th.png
 sidebar:
-  - title: "<i class=\"fa fa-github\" aria-hidden=\"true\"></i> <a href=\"https://github.com/yashketkar/Attendance-Manager\">GitHub Repo</a>"
+  - title: "<i class=\"fab fa-github\" aria-hidden=\"true\"></i> <a href=\"https://github.com/yashketkar/Attendance-Manager\">GitHub Repo</a>"
     image: /assets/images/projects/attendance-manager-sb.png
     image_alt: "thumbnail"
-  - title: "<i class=\"fa fa-android\" aria-hidden=\"true\"></i> <a href=\"https://play.google.com/store/apps/details?id=com.yashketkar.attendancemanager\">Google Play Store</a>"
+  - title: "<i class=\"fab fa-android\" aria-hidden=\"true\"></i> <a href=\"https://play.google.com/store/apps/details?id=com.yashketkar.attendancemanager\">Google Play Store</a>"
   - title: "Installations and Ratings"
     text: "Currently has 10-50k installations with 4.2 star rating from 400+ reviews."
   - title: "Responsibilities"

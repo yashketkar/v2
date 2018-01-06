@@ -4,7 +4,7 @@ excerpt: "Created a game maker web application using Phaser.js"
 header:
   teaser: /assets/images/projects/web-game-maker-th.png
 sidebar:
-  - title: "<i class=\"fa fa-github\" aria-hidden=\"true\"></i> <a href=\"https://github.com/abhijitkaranjkar89/Game-Maker\">GitHub Repo</a>"
+  - title: "<i class=\"fab fa-github\" aria-hidden=\"true\"></i> <a href=\"https://github.com/abhijitkaranjkar89/Game-Maker\">GitHub Repo</a>"
     image: /assets/images/projects/web-game-maker-sb.png
     image_alt: "thumbnail"
   - title: "Responsibilities"

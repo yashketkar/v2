@@ -4,7 +4,7 @@ excerpt: "A web based drag-and-drop form building application."
 header:
   teaser: /assets/images/projects/edoclite-th.png
 sidebar:
-  - title: "<i class=\"fa fa-github\" aria-hidden=\"true\"></i> <a href=\"https://github.com/p632-sp-2016/eDocLite\">GitHub Repo</a>"
+  - title: "<i class=\"fab fa-github\" aria-hidden=\"true\"></i> <a href=\"https://github.com/p632-sp-2016/eDocLite\">GitHub Repo</a>"
     image: /assets/images/projects/edoclite-sb.png
     image_alt: "thumbnail"
 ---
