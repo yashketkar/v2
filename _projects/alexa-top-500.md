@@ -24,7 +24,7 @@ I wrote this script as a part of an interview round. I was given the following r
 The python script which I wrote prints the top N links from Alexa Top 500 websites given the value of N. The value of N would be read from the command line if no command line arguments are specified. It would then print the top N websites from http://www.alexa.com/topsites to stdout.
 
 04/02/2018 Update:
-Seems like Alexa does not manually specify pages listing the top 500 websites anymore.
+It seems like Alexa does not manually specify pages listing the top 500 websites anymore.
 So http://www.alexa.com/topsites/global;1 would be redirected to http://www.alexa.com/topsites/global;0
 So this script should now only scrape top 50 websites from the Alexa page.
 For more websites you can use the Alexa API https://aws.amazon.com/awis/ or buy the Alexa service subscription: https://www.alexa.com/plans
