@@ -15,3 +15,6 @@ I wrote this Android app as a part of an interview round. I was given the follow
 </object>
 
 You can view my solution and the code for this problem from the link in the sidebar.
+
+Note: Kamcord has joined Lyft and their website, app or api does not exist anymore, So this project would not be usable in it's current form anymore.
+You can read more about Kamcord joining Lyft [here](https://medium.com/@Kamcord/were-joining-lyft-d1bb6523ac90).
