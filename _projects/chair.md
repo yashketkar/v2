@@ -7,7 +7,7 @@ sidebar:
   - title: "<i class=\"fab fa-github\" aria-hidden=\"true\"></i> <a href=\"https://github.com/yashketkar/chair\">GitHub Repo</a>"
     image: /assets/images/projects/chair-sb.png
     image_alt: "thumbnail"
-  - title: "<i class=\"fas fa-globe\" aria-hidden=\"true\"></i> <a href=\"https://blooming-shelf-17126.herokuapp.com/\">Requirements</a>"
+  - title: "<i class=\"fas fa-globe\" aria-hidden=\"true\"></i> <a href=\"https://docs.google.com/document/d/1q56K9KaiSTuBPRT22DO0gkxWXPzhQSOrk0uapPfNCSs/edit\">Requirements</a>"
   - title: "<i class=\"fas fa-globe\" aria-hidden=\"true\"></i> <a href=\"https://blooming-shelf-17126.herokuapp.com/\">Visit Website</a>"
   - title: "<i class=\"fas fa-pencil-alt\" aria-hidden=\"true\"></i> <a href=\"https://codepen.io/yashketkar/pen/pWBBrz\">View CodePen</a>"
 ---
