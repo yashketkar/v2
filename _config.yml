@@ -96,10 +96,10 @@ author:
   email            : "yashketkar@hotmail.com"
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
-  bitbucket        : "yashketkar"
+  bitbucket        : 
   codepen          : "yashketkar"
   dribbble         :
-  flickr           :
+  flickr           : "yashketkar"
   facebook         : "yashketkar"
   foursquare       :
   github           : "yashketkar"
