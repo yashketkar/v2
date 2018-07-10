@@ -4,8 +4,14 @@
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
-remote_theme: "mmistakes/minimal-mistakes@4.12.0"
 
+# Theme Settings
+#
+# Review documentation to determine if you should use `theme` or `remote_theme`
+# https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
+
+# theme                  : "minimal-mistakes-jekyll"
+remote_theme: "mmistakes/minimal-mistakes@4.12.0"
 minimal_mistakes_skin    : "air" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
@@ -21,7 +27,7 @@ teaser                   : "/assets/images/500x300.png" # path of fallback tease
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : "disqus"  # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
+  provider               : "disqus"  # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
     shortname            : "yashketkar" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -54,9 +60,17 @@ atom_feed:
   path                   : # blank (default) uses feed.xml
 search                   : # true, false (default)
 search_full_content      : # true, false (default)
-
+search_provider          : # lunr (default), algolia, google
+algolia:
+  application_id         : # YOUR_APPLICATION_ID
+  index_name             : # YOUR_INDEX_NAME
+  search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
+  powered_by             : # true (default), false
+google:
+  search_engine_id       : # YOUR_SEARCH_ENGINE_ID
+  instant_search         : # false (default), true
 # SEO Related
-google_site_verification :
+google_site_verification : "sDY3JJsL-W3Quj5Y9VmJrJfJ13058aXyoVekiDQpQ7k"
 bing_site_verification   : "32A6CE9D6E028BA5C2803EA5169D4A9D"
 yandex_site_verification :
 naver_site_verification  :
@@ -85,6 +99,7 @@ analytics:
   provider               : "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
     tracking_id          : "UA-75495429-1"
+    anonymize_ip         : # true, false (default)
 
 
 # Site Author
@@ -206,6 +221,7 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jemoji
+  - jekyll-include-cache
 
 
 # Archives
