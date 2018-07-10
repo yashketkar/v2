@@ -14,9 +14,10 @@ This bot was created as a part of an assignment, where we were provided a skelet
 
 The heuristic or scoring function gave a particular configuration of the game state a score taking into account various factors like average height, max height, holes, bumpiness and complete lines.
 
-The parameters to be considered and weights of each parameter was referenced from [here](https://codemyroad.wordpress.com/2013/04/14/tetris-ai-the-near-perfect-player/).
+The parameters to be considered and weights of each parameter were referenced from [here](https://codemyroad.wordpress.com/2013/04/14/tetris-ai-the-near-perfect-player/).
 
 Briefly, the algorithm worked as follows:
+
 1. For each piece and the upcoming piece generate all possible successor configurations of the game.
 2. Choose the next position from the successors with best score using the above scoring function and make the moves to reach that configuration of the board.
 
