@@ -9,7 +9,7 @@ sidebar:
     image_alt: "thumbnail"
   - title: "<i class=\"fas fa-globe\" aria-hidden=\"true\"></i> <a href=\"https://docs.google.com/document/d/1q56K9KaiSTuBPRT22DO0gkxWXPzhQSOrk0uapPfNCSs/edit\">Requirements</a>"
   - title: "<i class=\"fas fa-globe\" aria-hidden=\"true\"></i> <a href=\"https://blooming-shelf-17126.herokuapp.com/\">Visit Website</a>"
-  - title: "<i class=\"fas fa-pencil-alt\" aria-hidden=\"true\"></i> <a href=\"https://codepen.io/yashketkar/pen/pWBBrz\">View CodePen</a>"
+  - title: "<i class=\"fas fa-pencil-alt\" aria-hidden=\"true\"></i> <a href=\"https://codepen.io/yashketkar/full/pWBBrz\">View CodePen</a>"
 ---
 I created this web application as a part of an interview round. I was given the following requirements:
 
