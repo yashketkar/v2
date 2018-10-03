@@ -40,7 +40,7 @@ comments:
 staticman:
   allowedFields          : # ['name', 'email', 'url', 'message']
   branch                 : # "master"
-  commitMessage          : # "New comment."
+  commitMessage          : # "New comment by {fields.name}"
   filename               : # comment-{@timestamp}
   format                 : # "yml"
   moderation             : # true
@@ -53,6 +53,7 @@ staticman:
       type               : # "date"
       options:
         format           : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+  endpoint               : # URL of your own deployment with trailing slash, will fallback to the public instance
 reCaptcha:
   siteKey                :
   secret                 :
@@ -108,33 +109,56 @@ author:
   avatar           : "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Software Engineer, Data Science Enthusiast, Mumbaikar, Hoosier."
   location         : "Kansas City, MO"
-  email            : "yashketkar@hotmail.com"
-  uri              :
-  home             : # null (default), "absolute or relative url to link to author home"
-  bitbucket        : 
-  codepen          : "yashketkar"
-  dribbble         :
-  flickr           : "yashketkar"
-  facebook         : "yashketkar"
-  foursquare       :
-  github           : "yashketkar"
-  gitlab           :
-  google_plus      :
-  keybase          :
-  instagram        : "yashketkar"
-  lastfm           :
-  linkedin         : "yashketkar" # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
-  pinterest        :
-  soundcloud       : "yashketkar"
-  stackoverflow    : "5896782/yashketkar" # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
-  steam            : "yashketkar" # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
-  tumblr           :
-  twitter          : "yashketkar"
-  vine             :
-  weibo            :
-  xing             :
-  youtube          : # "https://youtube.com/c/MichaelRoseDesign"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:yashketkar@hotmail.com"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/yashketkar"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/yashketkar"
+    - label: "GitLab"
+      icon: "fab fa-fw fa-gitlab"
+      url: "https://gitlab.com/yashketkar"
+    - label: "Bitbucket"
+      icon: "fab fa-fw fa-bitbucket"
+      url: "https://bitbucket.org/yashketkar"
+    - label: "Codepen"
+      icon: "fab fa-fw fa-codepen"
+      url: "https://codepen.io/yashketkar"
+    - label: "Stack Overflow"
+      icon: "fab fa-fw fa-stack-overflow"
+      url: "https://stackoverflow.com/users/5896782/yashketkar"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/yashketkar"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      url: "https://facebook.com/yashketkar"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/yashketkar"
+    - label: "Steam"
+      icon: "fab fa-fw fa-steam-square"
+      url: "https://steamcommunity.com/id/yashketkar"
+    - label: "SoundCloud"
+      icon: "fab fa-fw fa-soundcloud"
+      url: "https://soundcloud.com/yashketkar"
+    - label: "Flickr"
+      icon: "fab fa-fw fa-flickr"
+      url: "https://www.flickr.com/yashketkar"
 
+# Site Footer
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/yashketkar"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/yashketkar"
 
 # Reading Files
 include:
