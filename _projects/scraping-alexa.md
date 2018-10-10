@@ -1,6 +1,6 @@
 ---
-title: "Alexa Top 500"
-excerpt: "Scraping top 500 websites from Alexa using a python script."
+title: "Scraping Alexa"
+excerpt: "Scraping top 500 websites from Alexa Internet using a python script."
 header:
   teaser: /assets/images/projects/alexa-top-500-th.png
 sidebar:
