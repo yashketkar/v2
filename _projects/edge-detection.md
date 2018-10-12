@@ -7,6 +7,8 @@ sidebar:
   - title: "<i class=\"fab fa-github\" aria-hidden=\"true\"></i> <a href=\"https://github.com/yashketkar/B551-Elements-Of-Artificial-Intelligence/tree/master/pssapre-sdarekar-yketkar-a3/part2\">GitHub Repo</a>"
     image: /assets/images/projects/edge-detection-sb.png
     image_alt: "thumbnail"
+  - title: "Technologies Used"
+    text: "Python Imaging Library, NumPy, SciPy"
 gallery:
   - url: /assets/images/projects/edge-detection/mountain1-input.jpg
     image_path: assets/images/projects/edge-detection/mountain1-input.jpg

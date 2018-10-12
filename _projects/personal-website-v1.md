@@ -10,4 +10,4 @@ sidebar:
   - title: "Technologies Used"
     text: "Jekyll, GitHub pages"
 ---
-First iteration of my personal website built with Jekyll and hosted on Github Pages.
+First iteration of my personal website built with Jekyll and hosted on Github Pages. I used the [{ Personal } Jekyll Theme](https://github.com/le4ker/personal-jekyll-theme).
