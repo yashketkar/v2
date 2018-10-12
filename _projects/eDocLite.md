@@ -7,6 +7,8 @@ sidebar:
   - title: "<i class=\"fab fa-github\" aria-hidden=\"true\"></i> <a href=\"https://github.com/p632-sp-2016/eDocLite\">GitHub Repo</a>"
     image: /assets/images/projects/edoclite-sb.png
     image_alt: "thumbnail"
+  - title: "Technologies Used"
+    text: "React.js, Redux, Travis CI"
 ---
 eDocLite is a service which allows for the creation of simple web-based forms using the Kuali Enterprise Workflow engine<sup>[1](#1)</sup>. It required entering lots of complex XML to create a form, thus creating the need to have an easy to use tool to generate the XML.
 

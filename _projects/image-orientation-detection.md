@@ -9,6 +9,8 @@ sidebar:
     image_alt: "thumbnail"
   - title: "Responsibilities"
     text: "Worked on Adaboost method to detect orientation"
+  - title: "Technologies Used"
+    text: "Python, NumPy, SciPy, Pandas, scikit-learn"
 gallery:
   - url: /assets/images/projects/image-orientation/1.jpg
     image_path: assets/images/projects/image-orientation/1.jpg

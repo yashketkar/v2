@@ -7,6 +7,8 @@ sidebar:
   - title: "<i class=\"fab fa-github\" aria-hidden=\"true\"></i> <a href=\"https://github.com/yashketkar/kamcord\">GitHub Repo</a>"
     image: /assets/images/projects/kamcord-sb.png
     image_alt: "thumbnail"
+  - title: "Technologies Used"
+    text: "Java, XML, Android APIs"
 ---
 I wrote this Android app as a part of an interview round. I was given the following requirements:
 
