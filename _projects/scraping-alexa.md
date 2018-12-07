@@ -7,7 +7,7 @@ sidebar:
   - title: "<i class=\"fab fa-github\" aria-hidden=\"true\"></i> <a href=\"https://github.com/yashketkar/AlexaTop500\">GitHub Repo</a>"
     image: /assets/images/projects/alexa-top-500-sb.png
     image_alt: "thumbnail"
-  - title: "Technologies Used"
+  - title: "Languages/Technologies Used"
     text: "Python"
 ---
 I wrote this script as a part of an interview round. I was given the following requirements:

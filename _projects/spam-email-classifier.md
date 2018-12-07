@@ -7,7 +7,7 @@ sidebar:
   - title: "<i class=\"fab fa-github\" aria-hidden=\"true\"></i> <a href=\"https://github.com/yashketkar/B551-Elements-Of-Artificial-Intelligence/tree/master/pssapre-sdarekar-yketkar-a4\">GitHub Repo</a>"
     image: /assets/images/projects/spam-sb.jpg
     image_alt: "thumbnail"
-  - title: "Technologies Used"
+  - title: "Languages/Technologies Used"
     text: "Python"
   - title: "Responsibilities"
     text: "Creating an email classifier using decision trees."

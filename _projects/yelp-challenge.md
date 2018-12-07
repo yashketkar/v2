@@ -7,7 +7,7 @@ sidebar:
   - title: "<i class=\"fab fa-github\" aria-hidden=\"true\"></i> <a href=\"https://github.com/yashketkar/yelp-dataset-challenge\">GitHub Repo</a>"
     image: /assets/images/projects/yelp-dataset-challenge-sb.png
     image_alt: "thumbnail"
-  - title: "Technologies Used"
+  - title: "Languages/Technologies Used"
     text: "Python, MongoDB, Java, Maven, gensim, nltk, jupyter"
   - title: "Responsibilities"
     text: "Worked on the task 2 of the project"
