@@ -11,7 +11,7 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                  : "minimal-mistakes-jekyll"
-remote_theme: "mmistakes/minimal-mistakes@4.13.0"
+remote_theme: "mmistakes/minimal-mistakes@4.14.1"
 minimal_mistakes_skin    : "air" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
@@ -113,21 +113,21 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:yashketkar@outlook.com"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/yashketkar"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/yashketkar"
-    - label: "Codepen"
-      icon: "fab fa-fw fa-codepen"
-      url: "https://codepen.io/yashketkar"
-    - label: "Stack Overflow"
-      icon: "fab fa-fw fa-stack-overflow"
-      url: "https://stackoverflow.com/users/5896782/yashketkar"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/yashketkar"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/yashketkar"
+    - label: "Stack Overflow"
+      icon: "fab fa-fw fa-stack-overflow"
+      url: "https://stackoverflow.com/users/5896782/yashketkar"
+    - label: "Codepen"
+      icon: "fab fa-fw fa-codepen"
+      url: "https://codepen.io/yashketkar"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       url: "https://facebook.com/yashketkar"
@@ -140,9 +140,6 @@ author:
     - label: "SoundCloud"
       icon: "fab fa-fw fa-soundcloud"
       url: "https://soundcloud.com/yashketkar"
-    - label: "Flickr"
-      icon: "fab fa-fw fa-flickr"
-      url: "https://www.flickr.com/yashketkar"
 
 # Site Footer
 footer:
@@ -231,6 +228,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jemoji
+  - jekyll-include-cache
 
 # mimic GitHub Pages with --safe
 whitelist:

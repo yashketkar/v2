@@ -10,7 +10,7 @@ sidebar:
   - title: "<i class=\"fab fa-android\" aria-hidden=\"true\"></i> <a href=\"https://play.google.com/store/apps/details?id=com.yashketkar.attendancemanager\">Google Play Store</a>"
   - title: "Installations and Ratings"
     text: "Currently has 10-50k installations with 4.2 star rating from 400+ reviews."
-  - title: "Technologies Used"
+  - title: "Languages/Technologies Used"
     text: "Java, XML, Android APIs, Google Play Services"
 gallery:
   - url: /assets/images/projects/attendance-manager/screenshot-1.png

@@ -7,7 +7,7 @@ sidebar:
   - title: "<i class=\"fab fa-github\" aria-hidden=\"true\"></i> <a href=\"https://github.com/yashketkar/OS-P536-S17\">GitHub Repo</a>"
     image: /assets/images/projects/xinu-sb.png
     image_alt: "thumbnail"
-  - title: "Technologies Used"
+  - title: "Languages/Technologies Used"
     text: "C"
   - title: "Responsibilities"
     text: "Modifying and upgrading various aspects of Xinu OS"

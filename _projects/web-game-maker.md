@@ -7,7 +7,7 @@ sidebar:
   - title: "<i class=\"fab fa-github\" aria-hidden=\"true\"></i> <a href=\"https://github.com/abhijitkaranjkar89/Game-Maker\">GitHub Repo</a>"
     image: /assets/images/projects/web-game-maker-sb.png
     image_alt: "thumbnail"
-  - title: "Technologies Used"
+  - title: "Languages/Technologies Used"
     text: "HTML, Javascript, Phaser.js, CSS, Maven and Spring MVC"
   - title: "Responsibilities"
     text: "Worked on the front-end game maker part of this project."

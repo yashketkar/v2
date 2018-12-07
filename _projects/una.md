@@ -7,7 +7,7 @@ sidebar:
   - title: "<i class=\"fab fa-github\" aria-hidden=\"true\"></i> <a href=\"https://github.com/yashketkar/una\">GitHub Repo</a>"
     image: /assets/images/projects/una-sb.png
     image_alt: "thumbnail"
-  - title: "Technologies Used"
+  - title: "Languages/Technologies Used"
     text: "Bootstrap, jQuery, Javascript, CSS, PHP, font awesome"
   - title: "<i class=\"fas fa-globe\" aria-hidden=\"true\"></i> <a href=\"http://www.indiana.edu/~una/\">Visit Website</a>"
 gallery:
