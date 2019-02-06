@@ -1,4 +1,4 @@
-# [yashketkar.github.io](https://yashketkar.github.io/)
+# [yashketkar.com](https://yashketkar.com)
 
 This is my personal website and blog, which includes information about my background, education, and experience.
 Blogging mainly for tech, opinions expressed are mine.
