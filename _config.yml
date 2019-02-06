@@ -19,12 +19,12 @@ locale                   : "en-US"
 title                    : "Yash Ketkar"
 title_separator          : "-"
 name                     : "Yash Ketkar"
-description              : "Blog and website of Yash Ketkar, which includes information about my background, education and experience, blogging mainly for tech. Opinions expressed are mine."
+description              : "This is my personal website and blog, which includes information about my background, education, and experience. Blogging mainly for tech, opinions expressed are mine."
 url                      : "https://yashketkar.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 # baseurl                  : "/minimal-mistakes" # the subpath of your site, e.g. "/blog"
 repository               : "yashketkar/yashketkar.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "/assets/images/500x300.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "/assets/images/logo.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 200
@@ -88,7 +88,7 @@ facebook:
   username               : "yashketkar"
   app_id                 :
   publisher              :
-og_image                 : "/assets/images/site-logo.png" # Open Graph/Twitter default site image
+og_image                 : "/assets/images/og-image.png" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
