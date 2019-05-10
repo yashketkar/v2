@@ -1,6 +1,6 @@
 ---
 header:
-  teaser: /assets/images/posts/2019-02-01-Hello-World/teaser.png
+  teaser: /assets/images/posts/2019-06-01-Hello-World/teaser.png
 title: Hello World!
 category: personal
 ---
