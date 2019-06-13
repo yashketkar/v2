@@ -112,7 +112,7 @@ analytics:
 author:
   name             : "Yash Ketkar"
   avatar           : "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Software Engineer, Data Science Enthusiast, Mumbaikar, Hoosier."
+  bio              : "Software Engineer, Mumbaikar, Hoosier."
   location         : "Seattle, WA"
   links:
     - label: "Email"
