@@ -11,4 +11,4 @@ sidebar:
   - title: "Languages/Technologies Used"
     text: "Jekyll, GitHub Pages"
 ---
-First iteration of my personal website built with Jekyll and hosted on Github Pages. I used the [{ Personal } Jekyll Theme](https://github.com/le4ker/personal-jekyll-theme). It is a simple one page theme for personal websites. This version also featured a timeline of major events in my life. It had support for a blog, but the theme a bit seemed limited than the current iteration of my website. That was one of the factors which pushed me towards the redesign. You can check it out using the link on the sidebar.
+First iteration of my personal website built with Jekyll and hosted on Github Pages. I used the [{ Personal }](https://github.com/le4ker/personal-jekyll-theme) Jekyll Theme. It is a simple one page theme for personal websites. This version also featured a timeline of major events in my life. It had support for a blog, but the theme a bit seemed limited than the current iteration of my website. That was one of the factors which pushed me towards the redesign. You can check it out using the link on the sidebar.
