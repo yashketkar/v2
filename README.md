@@ -13,5 +13,5 @@ Blogging mainly for tech, opinions expressed are mine.
 Powered by [Jekyll](http://jekyllrb.com).
 
 This website incorporates [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes),
-Copyright (c) 2013-2019 Michael Rose and contributors.
+Copyright (c) 2013-2020 Michael Rose and contributors.
 Minimal Mistakes is distributed under the terms of the [MIT License](https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt).
