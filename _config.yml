@@ -18,6 +18,7 @@ minimal_mistakes_skin    : "air" # "default", "air", "aqua", "contrast", "dark",
 locale                   : "en-US"
 title                    : "Yash Ketkar"
 title_separator          : "-"
+subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Yash Ketkar"
 description              : "This is my personal website and blog, which includes information about my background, education, and experience. Blogging mainly for tech, opinions expressed are mine."
 url                      : "https://yashketkar.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -120,7 +121,6 @@ author:
       icon: "fab fa-fw fa-codepen"
       url: "https://codepen.io/yashketkar"
 
-
 # Site Footer
 footer:
   links:
@@ -208,7 +208,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
-  - jemoji
   - jekyll-include-cache
 
 # mimic GitHub Pages with --safe
@@ -217,7 +216,6 @@ whitelist:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
-  - jemoji
   - jekyll-include-cache
 
 
