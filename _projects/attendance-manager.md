@@ -1,5 +1,5 @@
 ---
-title: "Attendance Manager"
+title: "Student Attendance Manager"
 excerpt: "An Android app to manage student attendance in class."
 header:
   teaser: /assets/images/projects/attendance-manager-th.png
