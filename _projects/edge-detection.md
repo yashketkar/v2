@@ -29,6 +29,6 @@ gallery:
     image_path: assets/images/projects/edge-detection/mountain3-output.jpg
     alt: "Mountain 3 - Output"
 ---
-Performed Edge detection on images of mountains. That is, found the edge seperating the mountain from the sky. Gradient taken using Sobel Filter on images of mountains. Later used Markov Chain Monte Carlo (Gibbs Sampling) to find the ridge of a Mountain. Implementation in Python using NumPy and SciPy.
+Performed Edge detection on images of mountains. That is, found the edge separating the mountain from the sky. Gradient taken using Sobel Filter on images of mountains. Later used Markov Chain Monte Carlo (Gibbs Sampling) to find the ridge of a Mountain. Implementation in Python using NumPy and SciPy.
 
 {% include gallery caption="Edge detection performed on images of mountains." %}
